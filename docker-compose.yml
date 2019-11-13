@@ -1,7 +1,7 @@
 version: '3'
 services:
   node-app:
-    image: sigma-test
+    image: sigma-test:$BUILD_TAG
     build:
       dockerfile: Dockerfile
       context: .
